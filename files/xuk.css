@@ -1,0 +1,588 @@
+.container6 {
+  /* position: relative; */
+  /* text-align: center; */
+  color: black;
+
+  /* padding: auto; */
+  /* background-size: cover; */
+}
+
+
+.bottom-left {
+  position: absolute;
+  bottom: 220px;
+  left: 50px;
+  font-size: 30px;
+  font-family: Arial, sans-serif;
+  animation-delay: 3s;
+}
+
+.anim {
+  opacity: 0;
+  transform: translateY(30px);
+  animation: moveup 0.5s linear forwards;
+}
+
+@keyframes moveup {
+  100% {
+    opacity: 1;
+    transform: translateY(30px);
+  }
+}
+
+.img {
+  height: 60vh;
+  width: 80vw;
+}
+
+html {
+  overflow-y: scroll;
+  /* Adds vertical scrollbar */
+}
+
+.para1 {
+  color: #666;
+  /* color:black; */
+  padding-left: 30px;
+  animation-delay: 0.5s;
+}
+
+.para2 {
+  color: #666;
+  /* color:black; */
+  padding-left: 30px;
+  font-size: 18px;
+  animation-delay: 2s;
+}
+
+.para3 {
+  color: #666;
+  /* color:black; */
+  padding-left: 70px;
+  font-size: 20px;
+  animation-delay: 3s;
+}
+
+.cen_para1 {
+  color: #666;
+  /* color:black; */
+  /* padding-left:70px; */
+  font-size: 20px;
+  animation-delay: 3s;
+}
+
+.cen_para2 {
+  color: #666;
+  /* color:black; */
+  /* padding-left:70px; */
+  font-size: 20px;
+  animation-delay: 3s;
+}
+
+.tab_con {
+  padding-left: 31px;
+  float: left;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 10px;
+}
+
+.anim {
+  opacity: 0;
+  transform: translateY(30px);
+  animation: moveup 0.5s linear forwards;
+}
+
+@keyframes moveup {
+  100% {
+    opacity: 1;
+    transform: translateY(10px);
+  }
+}
+
+body {
+  overflow-y: scroll;
+
+}
+
+/* animated css */
+.title1 {
+  opacity: 0;
+}
+
+.title1.animate__animated {
+  opacity: 1;
+}
+
+
+/* assessment */
+.assessment-container {
+  margin: 40px;
+  background-image: url("https://w7.pngwing.com/pngs/187/915/png-transparent-royal-arms-of-england-royal-coat-of-arms-of-the-united-kingdom-crest-royal-emblem-world-united-kingdom.png");
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-position: 50%;
+  background-size: cover;
+  color: white;
+  padding: 30px;
+  display: flex;
+  font-size: 20px;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.assessment-content {
+  margin-bottom: 20px;
+  opacity: 1;
+  color: black;
+}
+
+.assessment-container button {
+  font-size: 16px;
+  background-color: red;
+  padding: 10px;
+  cursor: pointer;
+  height: 50px;
+  align-self: center;
+  border-radius: 8px;
+  border-color: red;
+}
+
+.assessment-container button:hover {
+  background-color: green;
+  scale: 1.1;
+}
+
+
+/* .assessment-content {
+          flex-grow: 1; /* Allow content to grow */
+
+
+.assessment-content h1 {
+  text-align: left;
+  /* Align h1 to the right */
+}
+
+
+
+@media (max-width: 450px) {
+  .counter-block-list-container div {
+    width: 70%;
+    padding: 70px;
+    margin: 20px;
+    margin-left: 50px;
+  }
+}
+
+.anims {
+  opacity: 0;
+  transform: translateY(30px);
+  /* Move elements down initially */
+  transition: opacity 1s, transform 1s;
+}
+
+/* Define animation for when elements come into view */
+.anims.animate {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.animss {
+  opacity: 0;
+  transform: translateY(30px);
+  /* Move elements down initially */
+  transition: opacity 2s, transform 2s;
+}
+
+/* Define animation for when elements come into view */
+.animss.animate {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.btn_last {
+  background-color: #04AA6D;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+/* watsapp */
+#whatsappButton {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 9999;
+  background-color: #25d366;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+
+}
+
+#cornerPage {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  background-color: #f0f0f0;
+  padding: 20px;
+  width: 300px;
+  height: 200px;
+  transition: transform 0.5s ease;
+  transform: translate(100%, 0);
+  z-index: 9998;
+}
+
+#cornerPage.active {
+  transform: translate(0, 0);
+}
+
+.closeButton {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  font-size: 20px;
+  color: #888;
+}
+
+
+table {
+  width: 700px;
+  margin: 0px;
+  border-collapse: collapse;
+  background-color: #F6A713;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+th,
+td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #F6A713;
+}
+
+th {
+  background-color: #F6A713;
+  width: 50vw;
+}
+
+tr:nth-child(even) {
+  background-color: #F6A713;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="mobile number"],
+select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #F6A713;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 120px;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+/* circle  */
+.cir_container {
+  width: 100%;
+  margin: 0 px;
+  /* height:-1000vh; */
+  text-align: center;
+  margin: 50px;
+}
+
+.box {
+  width: 700px;
+  /* Adjust the width of the box as needed */
+  margin-top: auto;
+  height: 75vh;
+  background-color: #F6A713;
+  /* Box background color */
+
+  border-radius: 10px;
+  /* Add border radius for rounded corners */
+}
+
+.circle {
+  width: 150px;
+  /* Adjust the size of the circle as needed */
+  height: 150px;
+  background-color: #ccc;
+  /* Change the background color if needed */
+  border-radius: 50%;
+  /* This makes the box appear as a circle */
+  margin: 0 auto 20px auto;
+  /* Adjust margin for spacing */
+  overflow: hidden;
+}
+
+.circle2 {
+  width: 50px;
+  /* Adjust the size of the circle as needed */
+  height: 50px;
+  background-color: #ccc;
+  /* Change the background color if needed */
+  border-radius: 50%;
+  /* This makes the box appear as a circle */
+  margin: 0 auto 20px auto;
+  /* Adjust margin for spacing */
+  overflow: hidden;
+}
+
+.circle2 img {
+  width: 100%;
+  /* Make the image fill the circle */
+  height: auto;
+  display: block;
+}
+
+.circle img {
+  width: 100%;
+  /* Make the image fill the circle */
+  height: auto;
+  display: block;
+}
+
+.content {
+  font-size: 18px;
+  /* Adjust the font size as needed */
+  line-height: 1.5;
+}
+
+.image-container {
+  display: flex;
+  flex-wrap: wrap;
+  /* Allow wrapping to next line */
+  justify-content: space-between;
+  /* Distribute items evenly */
+  margin: 20px auto;
+  max-width: 900px;
+  /* Adjust as needed */
+}
+
+.image-content {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  width: calc(50% - 20px);
+  /* Half of the container minus margin */
+  box-sizing: border-box;
+  /* Include padding and border in width calculation */
+}
+
+.image-content img {
+  width: 15vw;
+  /* Adjust as needed */
+  height: auto;
+  /* margin-right: 20px; */
+  flex-shrink: 0;
+  /* Prevent images from shrinking */
+}
+
+.text-content {
+  flex-grow: 1;
+  /* Expand to fill remaining space */
+  text-align: left;
+  /* Align content to the left */
+}
+
+.text-content h1,
+.text-content p {
+  margin: 5px 0;
+  /* Adjust spacing */
+}
+
+.reg-container {
+  display: flex;
+}
+
+/* Adjustments for smaller screens */
+@media screen and (max-width: 600px) {
+
+  .reg-container {
+    display: block;
+  }
+  
+  .image-content {
+    width: 100%;
+    /* Make each item take up the full width */
+  }
+
+  .image-content img {
+    width: 80px;
+    /* Reduce image size for smaller screens */
+    margin-right: 10px;
+    /* Adjust margin for smaller screens */
+  }
+
+  .table-container {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .cir_container .box {
+    width: 100%;
+  }
+
+  .para1,
+  .para2,
+  .para3 {
+    padding-left: 0;
+  }
+
+  .assessment-content {
+    padding: 20px;
+  }
+
+  .image-content img {
+    width: 100%;
+    height: auto;
+    margin-right: 0;
+  }
+
+  .contact-form {
+    /* Adjust contact form styles for mobile */
+  }
+
+  .box {
+    padding: 30px;
+    /* Add border radius for rounded corners */
+  }
+}
+
+/* CSS code for backin left animation */
+/* CSS code for backin left animation */
+@keyframes backinLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* CSS code for backin right animation */
+@keyframes backinRight {
+  0% {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Apply backin left animation to elements with class 'backin-left' */
+.backin-left {
+  animation: backinLeft 3s ease;
+}
+
+/* Apply backin right animation to elements with class 'backin-right' */
+.backin-right {
+  animation: backinRight 3s ease;
+}
+
+
+@keyframes backinLefts {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* CSS code for backin right animation */
+@keyframes backinRights {
+  0% {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Apply backin left animation to elements with class 'backin-left' */
+.backin-lefts {
+  animation: backinLeft 15s ease;
+}
+
+/* Apply backin right animation to elements with class 'backin-right' */
+.backin-rights {
+  animation: backinRight 15s ease;
+}
+
+/* final animation */
+
+/* adding text in image */
+.container1 {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.top-left {
+  position: absolute;
+  top: 180px;
+  left: 16px;
+  font-size: 30px;
+  padding: 20px;
+}
+
+.container2 {
+  width: 100%;
+  position: relative;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  /* Add shadow effect */
+  text-align: left;
+  padding-left: 5px;
+}
+
+.para5 {
+  color: #666;
+  padding-left: 60px;
+  font-size: 12px;
+}

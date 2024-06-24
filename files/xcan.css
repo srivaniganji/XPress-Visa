@@ -1,0 +1,410 @@
+.container1 {
+    /* position: relative; */
+    /* text-align: center; */
+    color: black;
+  }
+  body{
+    background-size: cover;
+  }
+  
+  .bottom-left {
+    position: absolute;
+    bottom:220px;
+    left: 50px;
+    font-size:30px;
+    font-family: Arial, sans-serif;
+    animation-delay: 3s;
+  }
+  .anim{
+    opacity:0;
+    transform:translateY(30px);
+    animation:moveup 0.5s linear forwards;
+  }
+  @keyframes moveup{
+       100%{
+        opacity:1;
+        transform:translateY(30px);
+       }
+      }
+      .img{
+        height:60vh;
+        width:80vw;
+      }
+        html {
+          overflow-y: scroll; /* Adds vertical scrollbar */
+      }
+    
+      .para1 {
+        color:#666;
+        /* color:black; */
+        padding-left:30px;
+        animation-delay: 0.5s;
+      }
+      .para2 {
+        color:#666;
+        /* color:black; */
+        padding-left:30px;
+        font-size:18px;
+        animation-delay: 2s;
+      }
+      .para3 {
+        color:#666;
+        /* color:black; */
+        padding-left:70px;
+        font-size:18px;
+        animation-delay: 3s;
+      }
+      .tab_con{
+        padding-left:31px;
+        float:left;
+    }
+    table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding:10px;
+      }
+      .anim{
+        opacity:0;
+        transform:translateY(30px);
+        animation:moveup 0.5s linear forwards;
+      }
+      @keyframes moveup{
+           100%{
+            opacity:1;
+            transform:translateY(10px);
+           }
+          }
+          body {
+            overflow-y: scroll;
+            
+        }
+        /* animated css */
+        .title1{
+          opacity:0;
+        }
+        .title1.animate__animated{
+          opacity:1;
+        }
+
+
+        /* assessment */
+        .assessment-container {
+          margin: 50px;
+          background-image: url("https://res.cloudinary.com/dxyzgyveu/image/upload/v1710865621/banner1_g0dluj.jpg");
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+          background-position: 50%;
+          background-size: cover;
+          color: white;
+          padding: 30px;
+          display: flex;
+          font-size: 20px;
+          flex-wrap: wrap;
+          flex-direction: column;
+        }
+        
+        .assessment-content {
+          margin-bottom: 20px;
+          opacity: 1;
+          color: black;
+        }
+        
+        .assessment-container button {
+          font-size: 16px;
+          background-color: red;
+          padding: 10px;
+          cursor: pointer;
+          height: 50px;
+          align-self: center;
+          border-radius: 8px;
+          border-color:red; 
+        }
+        
+        .assessment-container button:hover {
+          background-color: green;
+          scale: 1.1;
+        }
+        
+      /*  backin left*/
+      @keyframes backInDown {
+        from {
+          opacity: 0;
+          transform: translateY(-1200px) scale(0.7);
+        }
+        80% {
+          transform: translateY(30px) scale(0.7);
+        }
+        100% {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+  
+      /* Apply the animation to the image */
+      .animate__backInDown {
+        animation: backInDown 1s ease;
+      }
+      /* backin left2 */
+      @keyframes backInDown {
+        from {
+          opacity: 0;
+          transform: translateY(-1200px) scale(0.7);
+        }
+        80% {
+          transform: translateY(30px) scale(0.7);
+        }
+        100% {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+  
+      /* Apply the animation to the image */
+      .animates__backInDown {
+        animation: backInDown 3s ease;
+      }
+      /* .assessment-content {
+          flex-grow: 1; /* Allow content to grow */
+      
+      
+      .assessment-content h1 {
+          text-align: left; /* Align h1 to the right */
+      }
+      
+       
+        
+        @media (max-width: 450px) {
+          .counter-block-list-container div {
+            width: 70%;
+            padding: 70px;
+            margin: 20px;
+            margin-left: 50px;
+          }
+          .reg-container {
+            display: block;
+          }
+        }
+        .anims {
+          opacity: 0;
+          transform: translateY(30px); /* Move elements down initially */
+          transition: opacity 1s, transform 1s;
+      }
+      
+      /* Define animation for when elements come into view */
+      .anims.animate {
+          opacity: 1;
+          transform: translateY(0);
+      }
+      .animss {
+          opacity: 0;
+          transform: translateY(30px); /* Move elements down initially */
+          transition: opacity 2s, transform 2s;
+      }
+      
+      /* Define animation for when elements come into view */
+      .animss.animate {
+          opacity: 1;
+          transform: translateY(0);
+      }
+      .animsss {
+        opacity: 0;
+        transform: translateY(30px); /* Move elements down initially */
+        transition: opacity 1s, transform 1s;
+    }
+    
+    /* Define animation for when elements come into view */
+    .animsss.animate {
+        opacity: 1;
+        transform: translateY(0);
+    }
+      .btn_last{
+        background-color: #04AA6D;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius:8px;
+      }
+
+      /* watsapp */
+      #whatsappButton {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        z-index: 9999;
+        background-color: #25d366;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+        
+    }
+    
+    #cornerPage {
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        background-color: #f0f0f0;
+        padding: 20px;
+        width: 300px;
+        height: 200px;
+        transition: transform 0.5s ease;
+        transform: translate(100%, 0);
+        z-index: 9998;
+    }
+    
+    #cornerPage.active {
+        transform: translate(0, 0);
+    }
+    
+    .closeButton {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        cursor: pointer;
+        font-size: 20px;
+        color: #888;
+    }
+    .content{
+      /* background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%); */
+    }
+    /* .bg_color2{
+      background-color:#b7b5e4;
+    } */
+
+
+
+    .container3 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .top-left {
+      position: absolute;
+      top: 180px;
+      left: 16px;
+      font-size: 30px;
+      padding:20px;
+      color:white;
+    }
+  
+    .container2 {
+      width: 100%;
+      position: relative;
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow effect */
+      text-align: left;
+      padding-left:5px;
+    }
+  
+    .para5{
+      color:#666;
+      padding-left:60px;
+      font-size:12px;
+    }
+    .container7 {
+      display: flex;
+      padding-left:30px;
+      display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 20px;
+      /* justify-content: center;
+      align-items: center; */
+       /* height: 60vh;  */
+    }
+    form {
+      width: 900px; /* Adjust the width as needed */
+    }
+    input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  textarea {
+    width: 100%; /* Make input fields and textarea fill their container */
+    padding: 8px; /* Add some padding for better appearance */
+    box-sizing: border-box; /* Ensure padding and border are included in the width */
+    margin-bottom: 10px; /* Add some space between fields */
+  }
+  /* body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+  } */
+
+  .shadow-box {
+    width: 500px;
+    height: 300px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin: auto;
+    
+  }
+
+  p {
+    margin: 0;
+    padding-top: 10px;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  /* body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+  } */
+
+  .container6 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 20px;
+  }
+
+  .container7 {
+    width: 45%; /* Adjust width as needed */
+  }
+
+  .shadow-box {
+    width: 45%; /* Adjust width as needed */
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+
+  }
+  .circle2 {
+    width: 50px;
+    /* Adjust the size of the circle as needed */
+    height: 50px;
+    background-color: #ccc;
+    /* Change the background color if needed */
+    border-radius: 50%;
+    /* This makes the box appear as a circle */
+    margin: 0 auto 20px auto;
+    /* Adjust margin for spacing */
+    overflow: hidden;
+  }
+  
+  .circle2 img {
+    width: 100%;
+    /* Make the image fill the circle */
+    height: auto;
+    display: block;
+  }
+
+ 
+  
+ 
+  
+
+  

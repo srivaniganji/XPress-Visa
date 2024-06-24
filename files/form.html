@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="form_table.css">
+</head>
+<body>
+    <div class="wraper">
+    <center>
+       
+    <h1>Book my free Assessment</h1>
+    <form id="studentForm">
+        <label class="size" for="name">Name*:</label>
+        <br> <br>
+        <input type="text" id="name" name="name" class="box" required><br>
+        <br>
+        <label class="size" for="phone">Phone*:</label>
+        <br> <br>
+        <input  class="box" type="tel" id="phone" name="phone" required><br>
+        <br> 
+        <label  class="size" for="email">Email*:</label>
+        <br> <br>
+        <input  class="box" type="email" id="email" name="email" required><br>
+        <br>
+        <label  class="size" for="qualification">Qualification & Percentage of Marks*:</label>
+        <br> <br>
+        <input  class="box" type="text" id="qualification" name="qualification" required><br>
+        <br> 
+        <label  class="size" for="passoutYear">Passout Year*:</label>
+        <br> <br>
+        <input   class="box" type="number" id="passoutYear" name="passoutYear" required><br>
+        <br> 
+        <label class="size"  for="country">Select Country*:</label>
+        <br><br>
+        <select   class="box" id="country" name="country" required>
+            <br>
+            <option value="">Select Country*</option>
+            <option value="India">Europe</option>
+            <option value="Newzealand">Newzealand</option>
+            <option value="Austraila">Austraila</option>
+            <option value="Canada">Canada</option>
+            <option value="United Kingdom">United Kingdom</option>
+            <option value="United States">United States</option>
+
+            <!-- Populate this dropdown dynamically using JavaScript -->
+        </select><br><br>
+
+        <label  class="size" for="studyPreference">Preferred Area of Study*:</label>
+        <br> <br>
+        <input   class="box" type="text" id="studyPreference" name="studyPreference" required><br>
+        <br>
+        <label  class="size" for="englishTest">English Proficiency Test</label>
+        <br>
+        <label  class="size" for="IELTS"> (IELTS/PTE/TOEFL/GRE/DUOLINGO) Score*:</label>
+        <br> <br>
+        <input   class="box" type="text" id="englishTest" name="englishTest"><br>
+        <br>
+        <label  class="size" for="ivyBranch">Select Nearest IVY Branch*:</label>
+        <br> <br>
+        <select   class="box" id="ivyBranch" name="ivyBranch" required>
+            <br> 
+            <option class="size"  value="">Select IVY Branch</option>
+            <option class="size"  value="hyd">Hyderabad</option>
+            <option class="size"  value="hyd">Mumbai</option>
+            <option class="size"  value="hyd">Chennai</option>
+            <option class="size"  value="hyd">Kolkata</option>
+        
+            <!-- Populate this dropdown dynamically using JavaScript -->
+        </select><br><br>
+
+        <label  class="size" for="howDidYouKnow">How did you know about us?*</label>
+        <br><br>
+        <select   class="box" id="howDidYouKnow" name="howDidYouKnow" required>
+            <br> <br>
+            <option class="size"  value="">Select visa</option>
+            <br>
+            <option value="Instagram">Student vis</option>
+            <option value="FaceBook">Business visa</option>
+            <option value="Twitter">Family visa</option>
+            <option value="WatsApp">Travel visa</option>
+            <option value="WatsApp">Work visa</option>
+            <option value="WatsApp">Mgistrate visa</option>
+            <option value="WatsApp">Visitor visa</option>
+            <option value="WatsApp">PR visa</option>
+            <!-- <option value="Other">Other</option> -->
+        </select><br><br>
+
+        <label  class="size" for="preferredDateTime">Preferred Date & Time to Connect*:</label>
+        <br> <br>
+        <input   class="box" type="datetime-local" id="preferredDateTime" name="preferredDateTime" required><br>
+        <br> <br>
+        <button    class="boxes" type="submit">Submit</button>
+        <br>
+    </th>
+    </form>
+</center>
+</div>
+</body>
+</html>

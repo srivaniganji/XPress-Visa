@@ -1,0 +1,74 @@
+
+
+/* General styles */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("https://abroadin.com/blog/wp-content/uploads/2023/01/selective-focus-miniature-tourist-compass-map-with-plastic-toy-airplane-abstract-background-travel-concept-1.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* margin: 0;
+    padding: 0; */
+}
+
+.wraper {
+    position: relative;
+    width: 90%; /* Adjust width for mobile responsiveness */
+    max-width: 600px; /* Limit maximum width */
+    height: auto; /* Adjust height to fit content */
+    background: transparent;
+    border: 2px solid rgba(255,255,255,.5);
+    border-radius: 20px;
+    box-shadow: 0 0 60px rgba(0,0,0,.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 380px;
+    backdrop-filter: blur(30px);
+    margin-top: 20px; /* Add some space at the top */
+    margin-bottom: 20px; /* Add some space at the bottom */
+}
+
+.form {
+    /* width: 100%;
+    padding: 50px; */
+}
+
+/* Input and button styles */
+.box {
+    height: 40px; /* Adjust height for better visibility */
+    width: calc(100% - 50px); 
+    font-size: 16px;
+    /* padding: 2px; */
+    border: none;
+    border-radius: 5px;
+}
+
+.size {
+    font-size: 20px;
+    color:black;
+}
+
+.boxes {
+    height: 40px;
+    width: 50%;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+/* Media queries */
+@media screen and (max-width: 767px) {
+    .wraper {
+        width: 90%; /* Adjust width for smaller screens */
+    }
+
+    .form {
+        padding: 20px; /* Adjust padding for smaller screens */
+    }
+}
+
